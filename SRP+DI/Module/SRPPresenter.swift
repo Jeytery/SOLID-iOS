@@ -11,11 +11,11 @@ import Foundation
 // You go ahead and devide this part of screen in more modules
 // Like this make in VIPER -
 // you have not only presenter -
-// interactor (for networking), router (for navigation) also
+// interactor (for networking), router (for navigation)
 
 // But this simple example just want you to understand that you could and
 // sometimes should devide your complex part of programm in separate modules
-// to keep much more simple
+// to keep it simple
 
 // This is the main idea of SRP in iOS development for my oppinion
 

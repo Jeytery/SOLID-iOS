@@ -9,7 +9,10 @@ import UIKit
 
 func SRPModule() -> SRPViewController {
     let view = SRPViewController()
+    
+    // dependency injection, here in presenter
     let presenter = SRPPresenter(viewInput: view)
+    
     view.output = presenter
     return view
 }
