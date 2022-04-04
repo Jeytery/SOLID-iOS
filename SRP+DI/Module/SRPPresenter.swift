@@ -19,7 +19,11 @@ import Foundation
 
 // This is the main idea of SRP in iOS development for my oppinion
 
-class SRPPresenter {
+protocol SRPPresenterInput: AnyObject {
+    // ... base logic functionality of module
+}
+
+class SRPPresenter: SRPPresenterInput {
     
     private unowned let viewInput: SRPViewControllerInput
     
